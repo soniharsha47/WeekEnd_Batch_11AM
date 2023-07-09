@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Form Design</title>
+        <style>
+            form{
+                height: 50%;
+                width: 70%;
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+                color: brown;
+                margin: 2%;
+            }
+            .main{
+                display: flex;
+                height: 15%;
+                width: 50%;
+            }
+            .forlabel {
+                width: 50%;   
+            }
+            input{
+                border: none;
+                border-bottom: 2px solid blue;
+            }
+            input:focus{
+                outline: none;
+                /* border: none; */
+                /* outline-color: blue; */
+            }
+            input[type=submit]{
+                background-color:#5c1a1a ;
+                border: none;
+                color: white;
+                width: 100%;
+            }
+            input[type=email]{
+                background-image: url(media/emaillogo.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position-x: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="">
+           <div class="main">
+            <div class="forlabel">
+                <lable>Name : </lable>
+            </div>
+            <div class="forinput">
+                <input type="text" name="" id="" placeholder="<NAME>" required><br/>
+            </div>
+           </div>
+           <div class="main">
+            <div class="forlabel">
+                <lable>Email : </lable>
+            </div>
+            <div class="forinput">
+                <input type="email" name="" id="" placeholder="<Email>" required><br/>
+            </div>
+           </div>
+           <div class="main">
+            <div class="forlabel">
+                <lable>Company : </lable>
+            </div>
+            <div class="forinput">
+                <input type="text" name="" id="" placeholder="<Company>" required><br/>
+            </div>
+           </div>
+           <div class="main">
+            <div class="forlabel">
+                <lable>City : </lable>
+            </div>
+            <div class="forinput">
+                <input type="text" name="" id="" placeholder="<City>" required><br/>
+            </div>
+           </div>
+           <div class="main">
+            <div class="forlabel">
+                <lable>State : </lable>
+            </div>
+            <div class="forinput">
+                <input type="State" name="" id="" placeholder="<State>" required><br/>
+            </div>
+           </div>
+           <div class="main">
+            <div class="forlabel">
+                <lable>Zip Code : </lable>
+            </div>
+            <div class="forinput">
+                <input type="text" name="" id="" placeholder="<Code>" required><br/>
+            </div>
+           </div>
+           <div class="main">
+            <input type="submit" name="" id="">
+           </div>
+        </form>
+    </body>
+</html>

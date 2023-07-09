@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Border Radius</title>
+        <style>
+            .radius{
+                height: 200px;
+                width: 200px;
+                background-color: blueviolet;
+                /* border-radius: 100%; */
+                /* border-radius: 10% 50%; */
+                border-radius: 0% 100% 0% 100%;
+            }
+            .radius1{
+                height: 200px;
+                width: 200px;
+                background-color: blueviolet;
+                /* border-radius: 100%; */
+                /* border-radius: 10% 50%; */
+                border-radius: 100% 0% 100% 0%;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="radius"></div>
+        <div class="radius1"></div>
+        <div class="radius" style="margin-top: -200px;margin-left: 200px;"></div>
+        <div class="radius1" style="margin-top: -400px;margin-left: 200px;"></div>
+
+        <div style="margin-top: -200px; margin-left: 400px;">
+        <div class="radius" style="margin-left: 400px;"></div>
+        <div class="radius1" style="margin-left: 400px;"></div>
+        <div class="radius" style="margin-top: -200px;margin-left: 200px;"></div>
+        <div class="radius1" style="margin-top: -400px;margin-left: 200px;"></div>
+    </div>
+
+    </body>
+</html>
